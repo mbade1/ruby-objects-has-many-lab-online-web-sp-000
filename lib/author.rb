@@ -6,6 +6,10 @@ class Author
     @name = name
   end
 
+  def posts
+    Post.all.length
+  end
+
 
 
 end
